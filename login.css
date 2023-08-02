@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txt {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.verde {
+    color: #44D62C;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+
+header {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    border-bottom: 1px solid #44D62C;
+}
+
+#cabecalho {
+    height: 100%;
+    width: 1050px;
+    display: flex;
+    align-items: center;
+}
+
+#imgLogo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.txtH {
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+
+main {
+    width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#principal {
+    height: 550px;
+    width: 400px;
+    background-color: #000000;
+    border: 1px solid #252525;
+    border-radius: 1px;
+    padding: 20px 25px 40px 25px;
+}
+
+.txt1 {
+    margin: 20px 0px 30px 0px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.conteudoP {
+    height: 600px;
+    width: 400px;
+}
+
+.input {
+    color: #CCCCCC;
+}
+
+#input1 {
+    height: 50px;
+    width: 365px;
+    background-color: #000000;
+    border: 1px solid #555555;
+    border-radius: 2px;
+    padding: 0px 16px 0px 16px;
+}
+
+#input2 {
+    height: 50px;
+    width: 323px;
+    background-color: #000000;
+    border: 1px solid #555555;
+    border-radius: 2px;
+    margin: 20px 0px 20px 0px;
+    padding: 0px 58px 0px 16px;
+}
+
+#input1::placeholder {
+    color: #CCCCCC;
+}
+
+#input2::placeholder {
+    color: #CCCCCC;
+}
+
+#eye {
+    height: 25px;
+    position: relative;
+    bottom: 58px;
+    left: 350px;
+}
+
+#esqueceuSenha{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+}
+
+#divBtnLogin {
+    display: flex;
+    justify-content: center;
+}
+
+#btnLogin {
+    height: 45px;
+    width: 452px;
+    background-color: rgb(20, 64, 13);
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0px;
+}
+
+#divCadastro {
+    margin-top: 45px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#linkCadastro {
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+h1 {
+    color: #CCCCCC;
+}
+
+#hFinal {
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    color: #7e7e7e;
+}
+
+#h1 {
+    color: #7e7e7e;
+}
+
+#hFinal::before {
+    content: "________________";
+    position: relative;
+    margin-right: 10px;
+    bottom: 5px;
+}
+
+#hFinal::after {
+    content: "________________";
+    position: relative;
+    margin-left: 10px;
+    bottom: 5px;
+}
+
+#redes {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+#face {
+    height: 45px;
+    width: 140px;
+    background-color: #1877F2;
+    border: 0px;
+    border-radius: 3px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#google {
+    height: 45px;
+    width: 140px;
+    background-color: #FFFFFF;
+    border: 0px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#twitch {
+    height: 45px;
+    width: 140px;
+    background-color: #9146FF;
+    border: 0px;
+    border-radius: 3px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgT {
+    height: 35px;
+}
+
+img {
+    height: 25px;
+}
+
+
+footer {
+    height: 55px;
+    width: 100%;
+    background-color: #000000;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+#rodape {
+    height: 100%;
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: #FFFFFF;
+}
