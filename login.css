@@ -97,6 +97,7 @@ main {
     padding: 0px 16px 0px 16px;
 }
 
+
 #input2 {
     height: 50px;
     width: 323px;
@@ -120,6 +121,7 @@ main {
     position: relative;
     bottom: 58px;
     left: 350px;
+    cursor: pointer;
 }
 
 #esqueceuSenha{
@@ -143,6 +145,11 @@ main {
     font-weight: bold;
     font-size: 16px;
     border: 0px;
+    cursor: pointer;
+}
+
+#btnLogin:active {
+    transform: scale(0.99);
 }
 
 #divCadastro {

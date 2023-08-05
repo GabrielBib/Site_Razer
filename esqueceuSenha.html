@@ -21,20 +21,24 @@
 
     <main>
         <div id="principal">
-            <div id="div1" class="txt txt1">
+            <div id="div1" class="txt txt1 displayN">
                 <h1>RECUPERAÇÃO DE SENHA</h1>
             </div>
-            <div id="div2">
+            <div id="div2" class="displayN">
                 <h1 class="txt">Com qual conta Razer ID você está tendo problemas de acesso?</h1>
             </div>
-            <div id="div3">
+            <div id="div3" class="displayN">
                 <h1 class="txt2">Se não tiver mais acesso ao seu e-mail, entre em contato com <span class="verde">Suporte Razer</span></h1>
             </div>
-            <div id="div4">
-                <input type="text" name="" id="" placeholder="RAZER ID EMAIL OR RECOVERY EMAIL">
+            <div class="txt" id="redefinido" style="display: none;">
+                <h1>Email com pedido de redefinição de senha enviado!</h1>
+                <a href="login.html" id="btnVoltar">VOLTAR</a>
             </div>
-            <div id="div5">
-                <button id="btn1" class="txt">VOLTAR</button>
+            <div id="div4" class="displayN">
+                <input type="text" placeholder="RAZER ID EMAIL OR RECOVERY EMAIL" required>
+            </div>
+            <div id="div5" class="displayN">
+                <a href="login.html"><button id="btn1" class="txt" onclick="">VOLTAR</button></a>
                 <button id="btn2">ENVIAR</button>
             </div>
         </div>
@@ -51,6 +55,7 @@
             <a class="txt" href="https://www.razer.com/legal/customer-privacy-policy?_ga=2.237366275.222401743.1690580957-227080165.1690580957">Política de Privacidade</a>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

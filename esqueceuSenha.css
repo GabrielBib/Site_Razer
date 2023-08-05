@@ -110,6 +110,7 @@ input {
     border: 1px solid #555555;
     padding-left: 16px;
     border-radius: 2px;
+    color: #FFFFFF;
 }
 
 button {
@@ -123,11 +124,49 @@ button {
 #btn1 {
     background-color: #707070;
     margin-right: 15px;
+    cursor: pointer;
 }
 
 #btn2 {
     background-color: #15410D;
     color: #000;
+    cursor: pointer;
+}
+
+#redefinido {
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+#btnVoltar {
+    height: 45px;
+    width: 100%;
+    background-color: #44D62C;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnVoltar:active {
+    transform: scale(0.99);
+    background-color: #43d62cb7;
+}
+
+#btnVoltar:hover {
+    background-color: #64d453;
 }
 
 

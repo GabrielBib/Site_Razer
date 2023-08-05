@@ -194,7 +194,7 @@ img {
     font-size: 16px;
 }
 
-#input0:focus{
+#input0:focus {
     border: 1px solid #44D62C;
 }
 
@@ -226,7 +226,7 @@ img {
     font-size: 16px;
 }
 
-#input1:focus{
+#input1:focus {
     border: 1px solid #44D62C;
 }
 
@@ -241,7 +241,7 @@ img {
     font-size: 16px;
 }
 
-#input2:focus{
+#input2:focus {
     border: 1px solid #44D62C;
 }
 
@@ -256,14 +256,15 @@ img {
     font-size: 16px;
 }
 
-#input3:focus{
+#input3:focus {
     border: 1px solid #44D62C;
 }
 
 #eye {
     position: relative;
-    bottom: 58px;
+    bottom:46px;
     left: 168px;
+    cursor: pointer;
 }
 
 #div5 {
@@ -280,11 +281,11 @@ img {
     height: 250px;
     justify-content: space-around;
     font-size: 16px;
-}  
+}
 
 li {
     display: flex;
-    
+
 }
 
 .txtLi {
@@ -292,9 +293,8 @@ li {
     padding-top: 5px;
 }
 
-/* styles.css */
 input[type="checkbox"] {
-    appearance: none; /* Remove o estilo padrão do navegador */
+    appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     width: 20px;
@@ -302,7 +302,7 @@ input[type="checkbox"] {
     border: 1px solid #555555;
     border-radius: 3px;
     background-color: #000000;
-    outline: none; /* Remove o contorno do foco */
+    outline: none;
     cursor: pointer;
 }
 
@@ -311,9 +311,9 @@ input[type="checkbox"]:checked {
     border-color: #44D62C;
 }
 
-/* Estilo do marcador da checkbox quando marcada */
+
 input[type="checkbox"]:checked::before {
-    content: "\2714"; /* Símbolo de checkmark Unicode */
+    content: "\2714";
     display: block;
     width: 100%;
     height: 100%;
@@ -325,15 +325,88 @@ input[type="checkbox"]:checked::before {
 }
 
 #div6 {
+    height: 250px;
+    width: 100%;
     position: relative;
     top: 130px;
     /* height: 300px; */
     width: 100%;
     color: #FFFFFF;
+    margin-bottom: 160px;
 }
 
-#txtH1 {
-    margin-bottom: 30px;
+.txtH2 {
+    margin-top: 30px;
+    color: #CCCCCC;
+}
+
+#divBtn {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnCaptcha {
+    height: 85px;
+    width: 365px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: #3D3D3D;
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#txtCaptcha {
+    position: relative;
+    top: 53px;
+    right: 40px;
+    cursor: pointer;
+}
+
+#inputCaptcha {
+    height: 35px;
+    width: 35px;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 6px;
+}
+
+#div7 {
+    height: 60px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#btnA {
+    height: 45px;
+    width: 100%;
+    border-radius: 1px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #15410D;
+    color: #000;
+}
+
+#div8 {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+#txtH3 {
+    color: #CCCCCC;
+    font-size: 14px
+}
+
+#txtH4 {
+    font-size: 16px;
 }
 
 
