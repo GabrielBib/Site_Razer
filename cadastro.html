@@ -28,17 +28,20 @@
                 <h1 class="txt txt2">O Razer ID é uma conta unificada para todos os serviços da Razer.</h1>
             </div>
             <div id="redes">
-                <a href="https://pt-br.facebook.com/" target="_blank" id="face">
+                <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=965511933493262&kid_directed_site=0&app_id=965511933493262&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D965511933493262%26redirect_uri%3Dhttps%253A%252F%252Foauth2.razer.com%252Fthirdparty_callback%253Fprovider%253Dfacebook%26response_type%3Dcode%26scope%3Demail%26state%3DgrIcxt6260813509570340584NRDhoBtddi1691444875%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D4e2c9c34-ccc6-4543-b934-774740828388%26tp%3Dunspecified&cancel_url=https%3A%2F%2Foauth2.razer.com%2Fthirdparty_callback%3Fprovider%3Dfacebook%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DgrIcxt6260813509570340584NRDhoBtddi1691444875%23_%3D_&display=page&locale=pt_BR&pl_dbl=0"
+                    target="_blank" id="face">
                     <div>
                         <img src="img/facebook_icon.png" alt="Icone Facebook">
                     </div>
                 </a>
-                <a href="https://www.google.com.br/?hl=pt-BR" target="_blank" id="google">
+                <a href="https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-603032804%3A1691444613176711&access_type=offline&client_id=171035621768-a1p1ce2b5qrjfsfq6hgk62t7ru9an12o.apps.googleusercontent.com&o2v=1&redirect_uri=https%3A%2F%2Foauth2.razer.com%2Fthirdparty_callback%3Fprovider%3Dgoogle&response_type=code&scope=profile+email+openid&service=lso&state=FR553F7688912181655727996slwiaulLOY1691444612&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAMU-NrryRgY1DeZs1S3oyD2PeG8QVY5dTYSQhIZrQ1mKKoL9gHR3dR4boki3bTuMvz4U6J7fPu-ZLsnIKFhT6SJSJlsZPT0Rcv5W_OHZlA6gZrI4u2kNxEX2WDmj4r-r_nRla7F49oTVROkCwS2vsUbWwTXm9RoWYrETJFDqn1_X_W_iXThbBedFnP_yOlQGNgBHU4tZ1H06kI03NI43UxU-6-T6_8gO14DEZqJeLGFXgR3sbS3FN3WqVpTkXC3HpCtgtleuYI-AJsMgQGl6x-Ec4_TMjgSfFUXsJHI4GnNcwKON8IZLbBPtq_H35ru_L4kfJzPf5c3RtTN5bhaEt4C4ufTt9g19aDpmR-TLS2EHRWrYWSz0bqjYhuaFKESWF_B-yQx-lEKXmUlORLXjxp2TKkPzodNUejV_RW3Km5iEaoKTyS4rWfalCTPdbX6-ffbFXeZDzTs_fIrgGZxNZfc9glMWQ%26as%3DS-603032804%253A1691444613176711%26client_id%3D171035621768-a1p1ce2b5qrjfsfq6hgk62t7ru9an12o.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Foauth2.razer.com&rart=ANgoxcfogzAYypwe-TdE6LNEEbPxlVfVr3LMJtuzCf5PqHVHPNF8OAWnDgXLcYNq5w9J2jZmEAd8JrO4AfcXwIiaH9kbu25Esw"
+                    target="_blank" id="google">
                     <div>
                         <img src="img/google_icon.png" alt="Icone google">
                     </div>
                 </a>
-                <a href="https://www.twitch.tv/" target="_blank" id="twitch">
+                <a href="https://www.twitch.tv/login?client_id=4j28c2znix5au9qzuy683wip0xksv5h&redirect_params=client_id%3D4j28c2znix5au9qzuy683wip0xksv5h%26redirect_uri%3Dhttps%253A%252F%252Foauth2.razer.com%252Fthirdparty_callback%253Fprovider%253Dtwitch%26response_type%3Dcode%26scope%3Duser%253Aread%253Aemail%26state%3DsEor5z3776155352766911892RqDVMqgBnp1691444927"
+                    target="_blank" id="twitch">
                     <div>
                         <img src="img/twitch_icon.png" alt="Icone Twitch" id="imgT">
                     </div>
@@ -288,31 +291,49 @@
                 </select>
                 <input type="date" name="data" placeholder="Aniversário (DD/MM/YYYY)" id="input1" class="txt">
                 <input type="text" placeholder="ENDEREÇO DE EMAIL" id="input2" class="txt">
-                <input type="text" placeholder="SENHA" id="input3" class="txt">
-                <img id="eye" src="img/eye1.png" alt="olhin" onclick="trocaOlho()">
+                <input type="password" placeholder="SENHA" id="input3" class="txt">
+                <input id="eye" type="checkbox" onchange="mudaOlho()">
             </div>
             <div id="div5" class="txt">
                 <h1 class="txt">Sign up for Razer emails</h1>
                 <ul id="lCheckbox">
-                    <li><input type="checkbox"><h1 class="txt txtLi">Razer.com</h1></li>
-                    <li><input type="checkbox"><h1 class="txt txtLi">Razer Gold e Razer Silver</h1></li>
-                    <li><input type="checkbox"><h1 class="txt txtLi">Razer Cortex e Ofertas de Jogos Razer</h1></li>
-                    <li><input type="checkbox"><h1 class="txt txtLi">Novas informações sobre serviços e produtos da Razer</h1></li>
-                    <li><input type="checkbox"><h1 class="txt txtLi">Prêmios da RazerStore</h1></li>
+                    <li><input class="check" type="checkbox">
+                        <h1 class="txt txtLi">Razer.com</h1>
+                    </li>
+                    <li><input class="check" type="checkbox">
+                        <h1 class="txt txtLi">Razer Gold e Razer Silver</h1>
+                    </li>
+                    <li><input class="check" type="checkbox">
+                        <h1 class="txt txtLi">Razer Cortex e Ofertas de Jogos Razer</h1>
+                    </li>
+                    <li><input class="check" type="checkbox">
+                        <h1 class="txt txtLi">Novas informações sobre serviços e produtos da Razer</h1>
+                    </li>
+                    <li><input class="check" type="checkbox">
+                        <h1 class="txt txtLi">Prêmios da RazerStore</h1>
+                    </li>
                 </ul>
             </div>
             <div id="div6">
                 <h1 class="txt txtH1">Termos e Condições</h1>
-                <h1 class="txt txtH2">Com base na sua permissão, personalizaremos anúncios e recomendações que podem corresponder aos seus interesses.
+                <h1 class="txt txtH2">Com base na sua permissão, personalizaremos anúncios e recomendações que podem
+                    corresponder aos seus interesses.
                     <br><br>
-                    A Razer respeita sua privacidade, assim, suas configurações de permissão podem ser alteradas a qualquer momento na página do seu perfil do Razer ID.
+                    A Razer respeita sua privacidade, assim, suas configurações de permissão podem ser alteradas a
+                    qualquer momento na página do seu perfil do Razer ID.
                     <br><br><br>
-                    Você aceita os <a class="verde" href="https://www.razer.com/legal/services-and-software-terms-of-use?_ga=2.245274053.1152954060.1691185264-1305927478.1691185264" target="_blank">Terms of Service</a> e a <a class="verde" href="https://www.razer.com/legal/customer-privacy-policy?_ga=2.2609776.1152954060.1691185264-1305927478.1691185264" target="_blank">Privacy Policy</a>?
+                    Você aceita os <a class="verde"
+                        href="https://www.razer.com/legal/services-and-software-terms-of-use?_ga=2.245274053.1152954060.1691185264-1305927478.1691185264"
+                        target="_blank">Terms of Service</a> e a <a class="verde"
+                        href="https://www.razer.com/legal/customer-privacy-policy?_ga=2.2609776.1152954060.1691185264-1305927478.1691185264"
+                        target="_blank">Privacy Policy</a>?
                 </h1>
             </div>
             <div id="divBtn">
                 <h1 class="txt" id="txtCaptcha">Sou humano</h1>
-                <button id="btnCaptcha"><div type="checkbox" id="inputCaptcha"></div></button>
+                <button id="btnCaptcha">
+                    <input type="checkbox" id="inputCaptcha">
+                </button>
             </div>
             <div id="div7">
                 <button id="btnA">ACEITAR E CRIAR</button>
@@ -323,7 +344,7 @@
                 <a href="login.html" class="txt" id="txtH4">Entrar <span class="verde">></span></a>
             </div>
         </div>
-        
+
     </main>
 
     <footer>
@@ -341,6 +362,7 @@
                 de Privacidade</a>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
