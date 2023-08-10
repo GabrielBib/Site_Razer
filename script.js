@@ -30,7 +30,7 @@ function guardaLogin() {
         alert("Verifique se o campo de NOME foi preenchido corretamente!");
     } else if (select.value == "País"){
         alert("Verifique se o campo de País foi escolhido!");
-    } else if (input1.value == "" || ){
+    } else if (input1.value == ""){
         alert("Verifique se a data é valida!");
     } else if (input2.value.includes("@") == false || input2.value == ""){
         alert("Verifique se todos os campos foram preenchidos corretamente! A senha deve ter no mínimo 8 caracteres");
