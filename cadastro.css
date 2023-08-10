@@ -432,6 +432,7 @@ li {
     font-weight: bold;
     background-color: #15410D;
     color: #000;
+    cursor: pointer;
 }
 
 #div8 {

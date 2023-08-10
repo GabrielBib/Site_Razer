@@ -51,8 +51,8 @@
                 <h1 id="h1">ou</h1>
             </div>
             <div id="div4">
-                <input type="text" placeholder="RAZER ID (SEU NOME DE GAMER)" id="input0" class="txt">
-                <select name="country" id="select" class="txt">
+                <input type="text" placeholder="RAZER ID (SEU NOME DE GAMER)" id="input0" class="txt input">
+                <select name="country" id="select" class="txt input">
                     <option value="">País</option>
                     <option value="AF">Afghanistan</option>
                     <option value="AL">Albania</option>
@@ -289,10 +289,12 @@
                     <option value="ZM">Zambia</option>
                     <option value="ZW">Zimbabwe</option>
                 </select>
-                <input type="date" name="data" placeholder="Aniversário (DD/MM/YYYY)" id="input1" class="txt">
-                <input type="text" placeholder="ENDEREÇO DE EMAIL" id="input2" class="txt">
-                <input type="password" placeholder="SENHA" id="input3" class="txt">
-                <input id="eye" type="checkbox" onchange="mudaOlho()">
+                <input type="date" name="data" placeholder="Aniversário (DD/MM/YYYY)" id="input1" class="txt input">
+                <input type="email" placeholder="ENDEREÇO DE EMAIL" id="input2" class="txt input">
+                <input type="password" placeholder="SENHA" id="input3" class="txt input">
+                <input id="eye" type="checkbox">
+                <input type="text" hidden id="guardaEmail">
+                <input type="text" hidden id="guardaSenha">
             </div>
             <div id="div5" class="txt">
                 <h1 class="txt">Sign up for Razer emails</h1>
@@ -336,7 +338,7 @@
                 </button>
             </div>
             <div id="div7">
-                <button id="btnA">ACEITAR E CRIAR</button>
+                <button id="btnA" onclick="guardaLogin()">ACEITAR E CRIAR</button>
             </div>
             <div id="div8">
                 <h1 class="txt" id="txtH3">Já tem uma conta?</h1>
