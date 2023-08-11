@@ -46,12 +46,12 @@ function guardaLogin() {
         inputE.value += input2.value;
         inputS.value += input3.value;
 
+        sessionStorage.setItem("email", inputE);
+        sessionStorage.setItem("senha", inputS);
+
         input.value = "";
 
-        // window.location.href = ""
-
-        console.log(inputE.value);
-        console.log(inputS.value);
+        window.location.href = "login.html";
 
     }
 }
